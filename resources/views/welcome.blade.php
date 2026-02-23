@@ -9,11 +9,11 @@
     <meta property="og:description" content="The nation's premier nightclub for seasoned exotic entertainers. Open nightly. Early bird specials at 4:30 PM.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://saggys.us">
-    <meta property="og:image" content="https://saggys.us/og-image.png">
+    <meta property="og:image" content="https://saggys.us/og.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://saggys.us/og-image.png">
+    <meta name="twitter:image" content="https://saggys.us/og.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
