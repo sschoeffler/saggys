@@ -1,17 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" width="520" height="360">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" width="520" height="340">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&amp;display=swap');
     </style>
+    <!-- Clip to remove the g descenders (below baseline, in the g zone) -->
+    <clipPath id="no-g-tails">
+      <!-- Keep everything above the baseline area -->
+      <rect x="0" y="0" width="520" height="168"/>
+      <!-- Keep the left side below baseline (S, a) -->
+      <rect x="0" y="168" width="195" height="200"/>
+      <!-- Keep the right side below baseline (y's descender and rest) -->
+      <rect x="310" y="168" width="210" height="200"/>
+    </clipPath>
   </defs>
-  <!-- Saggy's text -->
-  <text x="260" y="155" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-weight="900" font-size="128" fill="white" letter-spacing="-2">Saggy's</text>
-  <!-- Left saggy boob - hangs from left g descender -->
-  <ellipse cx="210" cy="245" rx="40" ry="65" fill="none" stroke="white" stroke-width="4.5" transform="rotate(10, 210, 245)"/>
+
+  <!-- Saggy's text with g descenders clipped off -->
+  <text x="260" y="155" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-weight="900" font-size="128" fill="white" letter-spacing="-2" clip-path="url(#no-g-tails)">Saggy's</text>
+
+  <!-- Left g boob descender - replaces normal g loop -->
+  <ellipse cx="228" cy="232" rx="32" ry="58" fill="none" stroke="white" stroke-width="5" transform="rotate(8, 228, 232)"/>
   <!-- Left nipple -->
-  <circle cx="195" cy="303" r="6.5" fill="white"/>
-  <!-- Right saggy boob - hangs from right g descender -->
-  <ellipse cx="270" cy="245" rx="40" ry="65" fill="none" stroke="white" stroke-width="4.5" transform="rotate(-10, 270, 245)"/>
+  <circle cx="216" cy="284" r="6" fill="white"/>
+
+  <!-- Right g boob descender - replaces normal g loop -->
+  <ellipse cx="288" cy="232" rx="32" ry="58" fill="none" stroke="white" stroke-width="5" transform="rotate(-8, 288, 232)"/>
   <!-- Right nipple -->
-  <circle cx="285" cy="303" r="6.5" fill="white"/>
+  <circle cx="300" cy="284" r="6" fill="white"/>
 </svg>
