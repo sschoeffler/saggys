@@ -6,14 +6,12 @@
   </defs>
   <!-- Saggy's text -->
   <text x="260" y="155" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-weight="900" font-size="128" fill="white" letter-spacing="-2">Saggy's</text>
-  <!-- Cleavage connection point -->
-  <path d="M 245,178 Q 260,200 275,178" fill="none" stroke="white" stroke-width="4.5" stroke-linecap="round"/>
-  <!-- Left saggy boob - big elongated droopy oval -->
-  <ellipse cx="225" cy="255" rx="40" ry="68" fill="none" stroke="white" stroke-width="4.5" transform="rotate(10, 225, 255)"/>
+  <!-- Left saggy boob - hangs from left g descender -->
+  <ellipse cx="210" cy="245" rx="40" ry="65" fill="none" stroke="white" stroke-width="4.5" transform="rotate(10, 210, 245)"/>
   <!-- Left nipple -->
-  <circle cx="210" cy="316" r="6.5" fill="white"/>
-  <!-- Right saggy boob - big elongated droopy oval -->
-  <ellipse cx="295" cy="255" rx="40" ry="68" fill="none" stroke="white" stroke-width="4.5" transform="rotate(-10, 295, 255)"/>
+  <circle cx="195" cy="303" r="6.5" fill="white"/>
+  <!-- Right saggy boob - hangs from right g descender -->
+  <ellipse cx="270" cy="245" rx="40" ry="65" fill="none" stroke="white" stroke-width="4.5" transform="rotate(-10, 270, 245)"/>
   <!-- Right nipple -->
-  <circle cx="310" cy="316" r="6.5" fill="white"/>
+  <circle cx="285" cy="303" r="6.5" fill="white"/>
 </svg>
