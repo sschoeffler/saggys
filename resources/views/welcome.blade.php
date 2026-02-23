@@ -73,7 +73,6 @@
 
         <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
             <div id="logo-area" class="mb-6">
-                <img src="/logo.svg" alt="Saggy's Nightclub" class="w-64 md:w-80 mx-auto mb-4">
                 <div class="text-8xl md:text-9xl font-display font-black neon-text tracking-tight">
                     SAGGY'S
                 </div>
