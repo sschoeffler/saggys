@@ -9,6 +9,11 @@
     <meta property="og:description" content="The nation's premier nightclub for seasoned exotic entertainers. Open nightly. Early bird specials at 4:30 PM.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://saggys.us">
+    <meta property="og:image" content="https://saggys.us/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://saggys.us/og-image.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,7 +78,7 @@
 
         <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
             <div id="logo-area" class="mb-6">
-                <img src="/saggys-logo.svg" alt="Saggy's Nightclub" class="w-72 md:w-96 mx-auto drop-shadow-[0_0_30px_rgba(255,0,222,0.5)]">
+                <img src="/logo-v3.svg" alt="Saggy's Nightclub" class="w-72 md:w-96 mx-auto drop-shadow-[0_0_30px_rgba(255,0,222,0.5)]">
             </div>
             <p class="font-script text-4xl md:text-5xl text-neon-gold mb-4">Where Legends Never Retire</p>
             <p class="text-xl md:text-2xl text-gray-400 mb-8 max-w-2xl mx-auto">
