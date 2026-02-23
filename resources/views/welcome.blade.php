@@ -73,9 +73,7 @@
 
         <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
             <div id="logo-area" class="mb-6">
-                <div class="text-8xl md:text-9xl font-display font-black neon-text tracking-tight">
-                    SAGGY'S
-                </div>
+                <img src="/logo.svg" alt="Saggy's Nightclub" class="w-72 md:w-96 mx-auto drop-shadow-[0_0_30px_rgba(255,0,222,0.5)]">
             </div>
             <p class="font-script text-4xl md:text-5xl text-neon-gold mb-4">Where Legends Never Retire</p>
             <p class="text-xl md:text-2xl text-gray-400 mb-8 max-w-2xl mx-auto">

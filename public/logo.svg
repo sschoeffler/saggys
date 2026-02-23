@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 290" width="480" height="290">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&amp;display=swap');
+    </style>
+  </defs>
+  <!-- Saggy's text -->
+  <text x="240" y="170" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-weight="900" font-size="130" fill="white" letter-spacing="-2">Saggy's</text>
+  <!-- Left saggy boob - rounder, droopier, closer to center -->
+  <path d="M 220,200 C 210,200 190,210 185,235 C 180,260 195,278 215,280 C 225,281 232,272 234,258 C 238,238 238,218 230,205 C 227,200 224,198 220,200 Z" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Left nipple -->
+  <circle cx="210" cy="274" r="5.5" fill="white"/>
+  <!-- Right saggy boob -->
+  <path d="M 260,200 C 270,200 290,210 295,235 C 300,260 285,278 265,280 C 255,281 248,272 246,258 C 242,238 242,218 250,205 C 253,200 256,198 260,200 Z" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right nipple -->
+  <circle cx="270" cy="274" r="5.5" fill="white"/>
+</svg>
